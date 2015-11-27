@@ -1,0 +1,26 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <locale.h>
+#include <strings.h>
+
+void codigo_principal (int codigo);
+int p1, p2, p3, p4, p5, p6, p7, p8, p0, cont, opcoes;
+
+int main()
+{
+	setlocale (LC_ALL,"portuguese");
+	
+	inicio:
+	
+	system ("cls");
+			
+	principal_1 (p1);
+	scanf ("%d", &p1);
+	
+	pause_p0 (p0);
+	
+	if (p1 == 11111) {
+    
+	senha_cartao (p3); 
+	scanf ("%d", &p3);
+ }
